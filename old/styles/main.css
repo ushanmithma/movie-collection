@@ -1,0 +1,103 @@
+* { margin: 0; padding: 0; font-family: Nirmala UI; }
+body {
+	background-color: #1b1b1b;
+}
+.wrapper {
+	top: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	background-color: #444;
+	overflow: hidden;
+}
+.main-head {
+	margin: 20px;
+	width: calc(50% - 40px);
+	float: left;
+	height: 100px;
+}
+.main-head h1 {
+	color: #fff;
+	line-height: 60px;
+}
+.main-head h1:first-letter {
+	font-size: 50px;
+	width: 60px;
+	padding: 0 8px;
+	color: #1b1b1b;
+	background-color: #ddd;
+	border-radius: 50%;
+}
+.mov-search {
+	margin: 20px 40px;
+	width: calc(50% - 80px);
+	height: 100px;
+	float: right;
+}
+.mov-search form {
+	margin-top: 10px;
+}
+.mov-search form input {
+	width: 300px;
+	float: right;
+	border: 4px solid #bbb;
+	padding: 8px 10px;
+	transition: 0.2s all;
+}
+.mov-search form input:focus {
+	background-color: #444;
+	outline: 0;
+	color: #66ff66;
+}
+.mov-img {
+	padding-top: 100px;
+	width: 1198px;
+	margin: 40px auto;
+}
+.mov-img a img {
+	transition: 0.2s all;
+	border: 1px solid white;
+	margin: 0 7px 3px 0;
+}
+.mov-img a img:hover {
+	transform: scale(1.2);
+}
+.footer {
+	width: 100%;
+	height: 100px;
+	background-color: #444;
+	overflow: hidden;
+}
+.data-enter {
+	margin: 40px;
+	width: calc(50% - 80px);
+	float: left;
+	height: 100px;
+}
+.data-enter a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+}
+.controls {
+	margin: 40px;
+	width: calc(50% - 80px);
+	float: right;
+	height: 100px;
+}
+.controls p {
+	color: #fff;
+	font-size: 20px;
+	float: right;
+	text-decoration: none;
+}
+.controls p a {
+	text-decoration: none;
+	color: #66ff66;
+}
+.controls p span {
+	opacity: 0.8;
+	cursor: not-allowed;
+}

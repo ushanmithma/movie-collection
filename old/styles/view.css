@@ -1,0 +1,8 @@
+* { margin: 0; padding: 0; font-family: Nirmala UI; }
+.clearfix { overflow: auto; }
+.movie-image { border: 1px solid white; float: right; padding: 0; }
+.movie-data { width: 1000px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.movie-name { width: 700px; font-weight: bold; padding: 0 0 0 30px !important; font-size: 35px !important; }
+.movie-details { float: left; }
+.movie-details table { color: white; float: right; border-collapse: collapse; }
+.movie-details table tr td { font-size: 25px; padding: 20px 30px; /* border: 1px dotted white; */ }

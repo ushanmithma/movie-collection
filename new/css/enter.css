@@ -1,0 +1,81 @@
+* {margin: 0; padding: 0;}
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
+body { font-family: 'Roboto', sans-serif; transition: all 0.3s ease; }
+.container {
+	width: 60%;
+	margin: 0 auto;
+	display: block;
+}
+
+.errors {
+	margin: 20px;
+	width: calc(100% - 40px);
+}
+
+.errors p {
+	background-color: red;
+	margin-bottom: 4px;
+	padding: 10px 20px;
+	color: #fff;
+	border: 2px solid white;
+}
+
+.success {
+	background-color: green;
+	margin: 20px;
+	padding: 10px 20px;
+	color: #fff;
+	border: 2px solid white;
+}
+
+.container input[type="checkbox"], input[type="radio"] {
+	width: 18px;
+	height: 18px;
+}
+
+form fieldset legend {
+	text-align: center;
+	font-size: 40px;
+	padding: 0 20px;
+}
+
+pre {
+	margin: 0 0 20px 20px;
+	color: red;
+}
+
+label {
+	display: flex;
+	margin: 10px 0 10px 20px;
+	flex-direction: column;
+	align-items: start;
+	justify-content: flex-start;
+	color: blue;
+	font-size: 25px;
+}
+
+#name, #age-rating, #hours, #minutes, #release-date, #imdb-rating, #imdb-rating-count, #rotten-tomatoes, #audience-score, #rotten-rating-count, #size, #box-office, #quality, #resolution, #directors, #description, #color, #poster-image, #background-image, #trailer, #download-link, #sub-download-link, #keywords {
+	margin-left: 20px;
+	font-size: 25px;
+}
+
+input[type="text"], input[type="url"], textarea {
+	padding: 8px;
+	width: calc(100% - 60px);
+	margin-right: 20px;
+}
+
+#save, #update {
+	float: right;
+	margin: 20px 20px 20px 0;
+	width: 200px;
+	height: 60px;
+	padding: 8px;
+	font-size: 40px;
+}
+
+ul li {
+	margin: 0 20px 10px 20px;
+	display: inline-block;
+}
+
